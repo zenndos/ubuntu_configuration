@@ -1,0 +1,1 @@
+/home/eghecol/.config/nvim/init.vim
