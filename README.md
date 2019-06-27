@@ -4,4 +4,4 @@ i3wm config
 vim config
 terminator config
 
-various scripts
+varios scripts

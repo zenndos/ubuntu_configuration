@@ -1,0 +1,11 @@
+#!/bin/bash
+
+light_value=$(light)
+echo $light_value
+if [ $(echo "$light_value>30" | bc) -eq 0 ]; then
+  light -U 10
+elif [ $light_value > 5 ]; then
+  light -U 5
+else [ $light_value > 1 ];
+  light -U 1
+fi
